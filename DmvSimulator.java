@@ -14,7 +14,7 @@ public class DmvSimulator {
             currentNumber = (currentNumber % 200) + 1; // 
         }
 
-        // Finally, call the user's number last
+        
         System.out.println("Calling number: " + userNumber);
         System.out.println("Sorry, you dont have the required paperwork.");
     }
