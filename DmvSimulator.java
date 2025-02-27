@@ -16,6 +16,8 @@ public class DmvSimulator {
 
         
         System.out.println("Calling number: " + userNumber);
-        System.out.println("Sorry, you dont have the required paperwork.");
+        
+        System.out.println("WRONG PAPERS STUPID! GET OUT!");
+
     }
 }
