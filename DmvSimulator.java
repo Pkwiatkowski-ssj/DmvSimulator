@@ -14,10 +14,16 @@ public class DmvSimulator {
             currentNumber = (currentNumber % 200) + 1; // 
         }
 
-        
         System.out.println("Calling number: " + userNumber);
+
+        if (random.nextInt(100) ==0){
+            System.out.println("You have all the required paperwork. You are all set!");
+        } else {
+        System.out.println("WRONG PAPERS STUPID! GET OUT!");
+
         
         System.out.println("WRONG PAPERS STUPID! MUAHAHAHA GET OUT!");
 
     }
+}
 }
