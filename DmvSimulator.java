@@ -21,9 +21,7 @@ public class DmvSimulator {
         } else {
         System.out.println("WRONG PAPERS STUPID! GET OUT!");
 
-        
-        System.out.println("WRONG PAPERS STUPID! MUAHAHAHA GET OUT!");
-
+    
     }
 }
 }
